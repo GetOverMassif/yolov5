@@ -423,7 +423,7 @@ def parse_opt(known=False):
     parser.add_argument('--cfg', type=str, default='models/yolov5m_mydata.yaml', help='model.yaml path')
     parser.add_argument('--data', type=str, default='data/mydata.yaml', help='dataset.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyps/hyp.scratch.yaml', help='hyperparameters path')
-    parser.add_argument('--epochs', type=int, default=10)
+    parser.add_argument('--epochs', type=int, default=1)
     parser.add_argument('--batch-size', type=int, default=8, help='total batch size for all GPUs')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='train, val image size (pixels)')
     parser.add_argument('--rect', action='store_true', help='rectangular training')
